@@ -1,0 +1,56 @@
+'.source.js':
+  'QUnit: begin':
+    'prefix': 'begin'
+    'body': """
+      begin(function(${1}) {
+        ${2}
+      });
+    """
+
+  'QUnit: done':
+    'prefix': 'done'
+    'body': """
+      done(function(${1}) {
+        ${2}
+      });
+    """
+
+  'QUnit: moduleDone':
+    'prefix': 'moduleDone'
+    'body': """
+      moduleDone(function(${1}) {
+        ${2}
+      });
+    """
+
+  'QUnit: moduleStart':
+    'prefix': 'moduleStart'
+    'body': """
+      moduleStart(function(${1}) {
+        ${2}
+      });
+    """
+
+  'QUnit: testDone':
+    'prefix': 'testDone'
+    'body': """
+      testDone(function(${1}) {
+        ${2}
+      });
+    """
+
+  'QUnit: testStart':
+    'prefix': 'testStart'
+    'body': """
+      testStart(function(${1}) {
+        ${2}
+      });
+    """
+
+  'QUnit: log':
+    'prefix': 'qulog'
+    'body': """
+      log(function(${1}) {
+        ${2}
+      });
+    """

@@ -1,0 +1,12 @@
+'.source.js':
+  'QUnit: module':
+    'prefix': 'module'
+    'body': "module('${1:name}'${2:, ${3:hooks}});"
+
+  'QUnit: test':
+    'prefix': 'test'
+    'body': "test('${1:name}', function(assert) {\n\t$0\n});"
+
+  'QUnit: skip':
+    'prefix': 'skip'
+    'body': "skip('${1:name}', function(assert) {\n\t$0\n});"
