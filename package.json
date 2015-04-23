@@ -13,7 +13,7 @@
     "snippet",
     "unit",
     "test",
-    "tests",
+    "tests"
   ],
   "dependencies": {}
 }
