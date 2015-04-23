@@ -1,6 +1,6 @@
 {
   "name": "atom-qunit-snippets",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Snippets for the QUnit Javascript Testing framework",
   "repository": "https://github.com/taylon/atom-qunit-snippets",
   "license": "MIT",
