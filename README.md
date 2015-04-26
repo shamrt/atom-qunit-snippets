@@ -1,6 +1,6 @@
 # QUnit Snippets for Atom
 
-> [Atom](https://atom.io/packages/css-snippets) Snippets for the [QUnit](https://qunitjs.com/) Javascript Testing framework.
+> [Atom](https://atom.io) Snippets for the [QUnit](https://qunitjs.com/) Javascript Testing framework.
 
 ## Install
 
