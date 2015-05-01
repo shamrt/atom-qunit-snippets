@@ -1,43 +1,43 @@
 '.source.js':
   'QUnit: equal':
     'prefix': 'equal'
-    'body': "assert.equal(${1:actual}, ${2:expected}${3:, '${4:message}'});"
+    'body': "assert.equal(${4:actual}, ${3:expected}${1:, '${2:message}'});"
 
   'QUnit: deepEqual':
     'prefix': 'deepEqual'
-    'body': "assert.deepEqual(${1:actual}, ${2:expected}${3:, '${4:message}'});"
+    'body': "assert.deepEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});"
 
   'QUnit: notDeepEqual':
     'prefix': 'notDeepEqual'
-    'body': "assert.notDeepEqual(${1:actual}, ${2:expected}${3:, '${4:message}'});"
+    'body': "assert.notDeepEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});"
 
   'QUnit: notEqual':
     'prefix': 'notEqual'
-    'body': "assert.notEqual(${1:actual}, ${2:expected}${3:, '${4:message}'});"
+    'body': "assert.notEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});"
 
   'QUnit: notPropEqual':
     'prefix': 'notPropEqual'
-    'body': "assert.notPropEqual(${1:actual}, ${2:expected}${3:, '${4:message}'});"
+    'body': "assert.notPropEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});"
 
   'QUnit: notStrictEqual':
     'prefix': 'notStrictEqual'
-    'body': "assert.notStrictEqual(${1:actual}, ${2:expected}${3:, '${4:message}'});"
+    'body': "assert.notStrictEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});"
 
   'QUnit: ok':
     'prefix': 'ok'
-    'body': "assert.ok(${1:state}${2:, '${3:message}'});"
+    'body': "assert.ok(${3:state}${1:, '${2:message}'});"
 
   'QUnit: propEqual':
     'prefix': 'propEqual'
-    'body': "assert.propEqual(${1:actual}, ${2:expected}${3:, '${4:message}'});"
+    'body': "assert.propEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});"
 
   'QUnit: strictEqual':
     'prefix': 'strictEqual'
-    'body': "assert.strictEqual(${1:actual}, ${2:expected}${3:, '${4:message}'});"
+    'body': "assert.strictEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});"
 
   'QUnit: throws':
     'prefix': 'throws'
-    'body': "assert.throws(${1:block}, ${2:expected}${3:, '${4:message}'});"
+    'body': "assert.throws(${4:block}, ${3:expected}${1:, '${2:message}'});"
 
   'QUnit: async':
     'prefix': 'async'
