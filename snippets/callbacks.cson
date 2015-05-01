@@ -1,4 +1,6 @@
+# Javascript
 '.source.js':
+
   'QUnit: begin':
     'prefix': 'begin'
     'body': """
@@ -53,4 +55,57 @@
       log(function(${1}) {
         ${2}
       });
+    """
+
+
+# Coffee
+'.source.coffee':
+
+  'QUnit: begin':
+    'prefix': 'begin'
+    'body': """
+      begin (${1}) ->
+        ${2}
+    """
+
+  'QUnit: done':
+    'prefix': 'done'
+    'body': """
+      done (${1}) ->
+        ${2}
+    """
+
+  'QUnit: moduleDone':
+    'prefix': 'moduleDone'
+    'body': """
+      moduleDone (${1}) ->
+        ${2}
+    """
+
+  'QUnit: moduleStart':
+    'prefix': 'moduleStart'
+    'body': """
+      moduleStart (${1}) ->
+        ${2}
+    """
+
+  'QUnit: testDone':
+    'prefix': 'testDone'
+    'body': """
+      testDone (${1}) ->
+        ${2}
+    """
+
+  'QUnit: testStart':
+    'prefix': 'testStart'
+    'body': """
+      testStart (${1}) ->
+        ${2}
+    """
+
+  'QUnit: log':
+    'prefix': 'qulog'
+    'body': """
+      log (${1}) ->
+        ${2}
     """

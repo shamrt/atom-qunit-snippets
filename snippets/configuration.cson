@@ -1,4 +1,12 @@
+# Javascript
 '.source.js':
   'QUnit: dparse':
     'prefix': 'dparse'
     'body': "dump.parse(${1:data});"
+
+
+# Coffee
+'.source.coffee':
+  'QUnit: dparse':
+    'prefix': 'dparse'
+    'body': "dump.parse ${1:data}"
