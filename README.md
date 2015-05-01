@@ -1,6 +1,7 @@
 # QUnit Snippets for Atom
 
 > [Atom](https://atom.io) Snippets for the [QUnit](https://qunitjs.com/) Javascript Testing framework.
+> It supports both Javascript and Coffeescript
 
 ## Install
 
