@@ -29,6 +29,10 @@
     'prefix': 'ok'
     'body': "assert.ok(${3:state}${1:, '${2:message}'});"
 
+  'QUnit: notOk':
+    'prefix': 'notOk'
+    'body': "assert.notOk(${3:state}${1:, '${2:message}'});"
+
   'QUnit: propEqual':
     'prefix': 'propEqual'
     'body': "assert.propEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});"
@@ -79,6 +83,10 @@
   'QUnit: ok':
     'prefix': 'ok'
     'body': "assert.ok ${3:state}${1:, '${2:message}'}"
+    
+  'QUnit: notOk':
+    'prefix': 'notOk'
+    'body': "assert.notOk ${3:state}${1:, '${2:message}'}"
 
   'QUnit: propEqual':
     'prefix': 'propEqual'
