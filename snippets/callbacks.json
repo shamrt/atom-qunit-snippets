@@ -1,0 +1,37 @@
+{
+  "QUnit: begin": {
+    "prefix": "begin",
+    "body": "begin(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: begin"
+  },
+  "QUnit: done": {
+    "prefix": "done",
+    "body": "done(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: done"
+  },
+  "QUnit: moduleDone": {
+    "prefix": "moduleDone",
+    "body": "moduleDone(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: moduleDone"
+  },
+  "QUnit: moduleStart": {
+    "prefix": "moduleStart",
+    "body": "moduleStart(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: moduleStart"
+  },
+  "QUnit: testDone": {
+    "prefix": "testDone",
+    "body": "testDone(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: testDone"
+  },
+  "QUnit: testStart": {
+    "prefix": "testStart",
+    "body": "testStart(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: testStart"
+  },
+  "QUnit: log": {
+    "prefix": "qulog",
+    "body": "log(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: log"
+  }
+}

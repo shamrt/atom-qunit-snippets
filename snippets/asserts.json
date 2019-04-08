@@ -1,0 +1,67 @@
+{
+  "QUnit: equal": {
+    "prefix": "equal",
+    "body": "assert.equal(${4:actual}, ${3:expected}${1:, '${2:message}'});",
+    "description": "QUnit: equal"
+  },
+  "QUnit: deepEqual": {
+    "prefix": "deepEqual",
+    "body": "assert.deepEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});",
+    "description": "QUnit: deepEqual"
+  },
+  "QUnit: notDeepEqual": {
+    "prefix": "notDeepEqual",
+    "body": "assert.notDeepEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});",
+    "description": "QUnit: notDeepEqual"
+  },
+  "QUnit: notEqual": {
+    "prefix": "notEqual",
+    "body": "assert.notEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});",
+    "description": "QUnit: notEqual"
+  },
+  "QUnit: notPropEqual": {
+    "prefix": "notPropEqual",
+    "body": "assert.notPropEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});",
+    "description": "QUnit: notPropEqual"
+  },
+  "QUnit: notStrictEqual": {
+    "prefix": "notStrictEqual",
+    "body": "assert.notStrictEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});",
+    "description": "QUnit: notStrictEqual"
+  },
+  "QUnit: ok": {
+    "prefix": "ok",
+    "body": "assert.ok(${3:state}${1:, '${2:message}'});",
+    "description": "QUnit: ok"
+  },
+  "QUnit: notOk": {
+    "prefix": "notOk",
+    "body": "assert.notOk(${3:state}${1:, '${2:message}'});",
+    "description": "QUnit: notOk"
+  },
+  "QUnit: propEqual": {
+    "prefix": "propEqual",
+    "body": "assert.propEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});",
+    "description": "QUnit: propEqual"
+  },
+  "QUnit: strictEqual": {
+    "prefix": "strictEqual",
+    "body": "assert.strictEqual(${4:actual}, ${3:expected}${1:, '${2:message}'});",
+    "description": "QUnit: strictEqual"
+  },
+  "QUnit: throws": {
+    "prefix": "throws",
+    "body": "assert.throws(${4:block}, ${3:expected}${1:, '${2:message}'});",
+    "description": "QUnit: throws"
+  },
+  "QUnit: async": {
+    "prefix": "async",
+    "body": "assert.async();${1}",
+    "description": "QUnit: async"
+  },
+  "QUnit: expect": {
+    "prefix": "expect",
+    "body": "assert.expect(${1:amount});",
+    "description": "QUnit: expect"
+  }
+}

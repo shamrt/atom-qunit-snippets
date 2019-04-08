@@ -1,0 +1,7 @@
+{
+  "QUnit: dparse": {
+    "prefix": "dparse",
+    "body": "dump.parse(${1:data});",
+    "description": "QUnit: dparse"
+  }
+}
