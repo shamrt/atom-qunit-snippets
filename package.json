@@ -2,7 +2,7 @@
   "name": "vscode-qunit-snippets",
   "displayName": "QUnit snippets",
   "publisher": "shamrt",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "VS Code snippets for the QUnit JavaScript testing framework",
   "keywords": [
     "qunit",
