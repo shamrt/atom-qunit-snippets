@@ -1,16 +1,57 @@
 # QUnit Snippets for Atom
 
-> [Atom](https://atom.io) Snippets for the [QUnit](https://qunitjs.com/) Javascript Testing framework.
-> It supports both Javascript and Coffeescript
+> [VS Code](https://code.visualstudio.com/) Snippets for the [QUnit](https://qunitjs.com/) Javascript Testing framework.
 
-## Install
+Borrows from the QUnit snippets for Atom created by [Taylon Silmer](https://github.com/taylon).
 
-```bash
-$ apm install atom-qunit-snippets
-```
+## Snippets
 
-Or Settings ➔ Packages ➔ Search for `atom-qunit-snippets`
+Below is a list of all available snippets and the triggers of each one. The → means the TAB key.
+
+### Tests
+
+|   Trigger | Content         |
+| --------: | --------------- |
+| `module→` | module block    |
+|   `test→` | test block      |
+|   `skip→` | skip test block |
+
+### Asserts
+
+|           Trigger | Content               |
+| ----------------: | --------------------- |
+|          `equal→` | assert.equal          |
+|      `deepEqual→` | assert.deepEqual      |
+|   `notDeepEqual→` | assert.notDeepEqual   |
+|       `notEqual→` | assert.notEqual       |
+|   `notPropEqual→` | assert.notPropEqual   |
+| `notStrictEqual→` | assert.notStrictEqual |
+|             `ok→` | assert.ok             |
+|          `notOk→` | assert.notOk          |
+|      `propEqual→` | assert.propEqual      |
+|    `strictEqual→` | assert.strictEqual    |
+|         `throws→` | assert.throws         |
+|          `async→` | assert.async          |
+|         `expect→` | assert.expect         |
+
+### Callbacks
+
+|        Trigger | Content     |
+| -------------: | ----------- |
+|       `begin→` | begin       |
+|        `done→` | done        |
+|  `moduleDone→` | moduleDone  |
+| `moduleStart→` | moduleStart |
+|    `testDone→` | testDone    |
+|   `testStart→` | testStart   |
+|       `qulog→` | log         |
+
+### Configuration
+
+|  Trigger | Content    |
+| -------: | ---------- |
+| `dparse` | dump.parse |
 
 ## License
 
-MIT © [Taylon Silmer](https://github.com/taylon)
+MIT © [Shane Martin](https://github.com/shamrt)
