@@ -1,11 +1,42 @@
 {
-  "name": "atom-qunit-snippets",
-  "version": "1.3.0",
-  "description": "Snippets for the QUnit Javascript Testing framework",
-  "repository": "https://github.com/taylon/atom-qunit-snippets",
+  "name": "vscode-qunit-snippets",
+  "displayName": "QUnit snippets",
+  "version": "0.0.0",
+  "description": "VS Code snippets for the QUnit JavaScript testing framework",
+  "publisher": "shamrt",
+  "repository": "https://github.com/shamrt/vscode-qunit-snippets",
   "license": "MIT",
+  "scripts": {
+    "format:sort-json": "sort-json snippets/*.json",
+    "format:prettier": "prettier --write *.md snippets/*",
+    "format": "npm run format:sort-json && npm run format:prettier",
+    "publish": "vsce publish"
+  },
   "engines": {
-    "atom": ">0.50.0"
+    "vscode": "^1.11.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/asserts.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/callbacks.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/configuration.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/test.json"
+      }
+    ]
   },
   "keywords": [
     "qunit",
@@ -15,5 +46,9 @@
     "test",
     "tests"
   ],
-  "dependencies": {}
+  "devDependencies": {
+    "prettier": "^1.16.4",
+    "sort-json": "^2.0.0",
+    "vsce": "^1.59.0"
+  }
 }
