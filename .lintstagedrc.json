@@ -1,4 +1,4 @@
 {
-  "*.json": ["sort-json", "git add"],
+  "snippets/*.json": ["sort-json", "git add"],
   "*.{md,json,js}": ["prettier --write", "git add"]
 }
