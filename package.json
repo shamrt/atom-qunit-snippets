@@ -1,20 +1,4 @@
 {
-  "name": "vscode-qunit-snippets",
-  "displayName": "QUnit snippets",
-  "version": "0.0.0",
-  "description": "VS Code snippets for the QUnit JavaScript testing framework",
-  "publisher": "shamrt",
-  "repository": "https://github.com/shamrt/vscode-qunit-snippets",
-  "license": "MIT",
-  "scripts": {
-    "format:sort-json": "sort-json snippets/*.json",
-    "format:prettier": "prettier --write *.md snippets/*",
-    "format": "npm run format:sort-json && npm run format:prettier",
-    "publish": "vsce publish"
-  },
-  "engines": {
-    "vscode": "^1.11.0"
-  },
   "categories": [
     "Snippets"
   ],
@@ -38,6 +22,20 @@
       }
     ]
   },
+  "description": "VS Code snippets for the QUnit JavaScript testing framework",
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4",
+    "sort-json": "^2.0.0",
+    "vsce": "^1.59.0"
+  },
+  "displayName": "QUnit snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
   "keywords": [
     "qunit",
     "snippets",
@@ -46,9 +44,15 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "prettier": "^1.16.4",
-    "sort-json": "^2.0.0",
-    "vsce": "^1.59.0"
-  }
+  "license": "MIT",
+  "name": "vscode-qunit-snippets",
+  "publisher": "shamrt",
+  "repository": "https://github.com/shamrt/vscode-qunit-snippets",
+  "scripts": {
+    "format": "npm run format:sort-json && npm run format:prettier",
+    "format:prettier": "prettier --write *.md snippets/*",
+    "format:sort-json": "sort-json snippets/*.json",
+    "publish": "vsce publish"
+  },
+  "version": "0.0.0"
 }
