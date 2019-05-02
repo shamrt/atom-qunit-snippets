@@ -10,11 +10,12 @@ Below is a list of all available snippets and the triggers of each one. The → 
 
 ### Tests
 
-|   Trigger | Content         |
-| --------: | --------------- |
-| `module→` | module block    |
-|   `test→` | test block      |
-|   `skip→` | skip test block |
+|   Trigger | Content            |
+| --------: | ------------------ |
+| `module→` | module block       |
+|   `test→` | test block         |
+|  `atest→` | test block (async) |
+|   `skip→` | skip test block    |
 
 ### Asserts
 
@@ -36,15 +37,23 @@ Below is a list of all available snippets and the triggers of each one. The → 
 
 ### Callbacks
 
-|        Trigger | Content     |
-| -------------: | ----------- |
-|       `begin→` | begin       |
-|        `done→` | done        |
-|  `moduleDone→` | moduleDone  |
-| `moduleStart→` | moduleStart |
-|    `testDone→` | testDone    |
-|   `testStart→` | testStart   |
-|       `qulog→` | log         |
+|        Trigger | Content                  |
+| -------------: | ------------------------ |
+|  `beforeEach→` | hooks.beforeEach         |
+|      `before→` | hooks.before             |
+|   `afterEach→` | hooks.afterEach          |
+|       `after→` | hooks.after              |
+| `abeforeEach→` | hooks.beforeEach (async) |
+|     `abefore→` | hooks.before (async)     |
+|  `aafterEach→` | hooks.afterEach (async)  |
+|      `aafter→` | hooks.after (async)      |
+|       `begin→` | begin                    |
+|        `done→` | done                     |
+|  `moduleDone→` | moduleDone               |
+| `moduleStart→` | moduleStart              |
+|    `testDone→` | testDone                 |
+|   `testStart→` | testStart                |
+|       `qulog→` | log                      |
 
 ### Configuration
 

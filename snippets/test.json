@@ -1,17 +1,22 @@
 {
   "QUnit: module": {
-    "prefix": "module",
-    "body": "module('${1:name}'${2:, ${3:hooks}});",
-    "description": "QUnit: module"
-  },
-  "QUnit: test": {
-    "prefix": "test",
-    "body": "test('${1:name}', function(assert) {\n\t$0\n});",
-    "description": "QUnit: test"
+    "body": "module('${1:name}', function(${2:hooks}){\n  ${3}\n});",
+    "description": "QUnit: module",
+    "prefix": "module"
   },
   "QUnit: skip": {
-    "prefix": "skip",
-    "body": "skip('${1:name}', function(assert) {\n\t$0\n});",
-    "description": "QUnit: skip"
+    "body": "skip('${1:name}', function(assert) {\n  $0\n});",
+    "description": "QUnit: skip",
+    "prefix": "skip"
+  },
+  "QUnit: test": {
+    "body": "test('${1:name}', function(assert) {\n  $0\n});",
+    "description": "QUnit: test",
+    "prefix": "test"
+  },
+  "QUnit: test (async)": {
+    "body": "test('${1:name}', async function(assert) {\n  $0\n});",
+    "description": "QUnit: test",
+    "prefix": "atest"
   }
 }

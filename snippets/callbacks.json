@@ -1,37 +1,77 @@
 {
+  "QUnit: after": {
+    "body": "hooks.after(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: hooks.after",
+    "prefix": "after"
+  },
+  "QUnit: after (async)": {
+    "body": "hooks.after(async function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: hooks.after",
+    "prefix": "aafter"
+  },
+  "QUnit: afterEach": {
+    "body": "hooks.afterEach(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: hooks.afterEach",
+    "prefix": "afterEach"
+  },
+  "QUnit: afterEach (async)": {
+    "body": "hooks.afterEach(async function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: hooks.afterEach",
+    "prefix": "aafterEach"
+  },
+  "QUnit: before": {
+    "body": "hooks.before(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: hooks.before",
+    "prefix": "before"
+  },
+  "QUnit: before (async)": {
+    "body": "hooks.before(async function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: hooks.before",
+    "prefix": "abefore"
+  },
+  "QUnit: beforeEach": {
+    "body": "hooks.beforeEach(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: hooks.beforeEach",
+    "prefix": "beforeEach"
+  },
+  "QUnit: beforeEach (async)": {
+    "body": "hooks.beforeEach(async function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: hooks.beforeEach",
+    "prefix": "abeforeEach"
+  },
   "QUnit: begin": {
-    "prefix": "begin",
     "body": "begin(function(${1}) {\n  ${2}\n});",
-    "description": "QUnit: begin"
+    "description": "QUnit: begin",
+    "prefix": "begin"
   },
   "QUnit: done": {
-    "prefix": "done",
     "body": "done(function(${1}) {\n  ${2}\n});",
-    "description": "QUnit: done"
-  },
-  "QUnit: moduleDone": {
-    "prefix": "moduleDone",
-    "body": "moduleDone(function(${1}) {\n  ${2}\n});",
-    "description": "QUnit: moduleDone"
-  },
-  "QUnit: moduleStart": {
-    "prefix": "moduleStart",
-    "body": "moduleStart(function(${1}) {\n  ${2}\n});",
-    "description": "QUnit: moduleStart"
-  },
-  "QUnit: testDone": {
-    "prefix": "testDone",
-    "body": "testDone(function(${1}) {\n  ${2}\n});",
-    "description": "QUnit: testDone"
-  },
-  "QUnit: testStart": {
-    "prefix": "testStart",
-    "body": "testStart(function(${1}) {\n  ${2}\n});",
-    "description": "QUnit: testStart"
+    "description": "QUnit: done",
+    "prefix": "done"
   },
   "QUnit: log": {
-    "prefix": "qulog",
     "body": "log(function(${1}) {\n  ${2}\n});",
-    "description": "QUnit: log"
+    "description": "QUnit: log",
+    "prefix": "qulog"
+  },
+  "QUnit: moduleDone": {
+    "body": "moduleDone(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: moduleDone",
+    "prefix": "moduleDone"
+  },
+  "QUnit: moduleStart": {
+    "body": "moduleStart(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: moduleStart",
+    "prefix": "moduleStart"
+  },
+  "QUnit: testDone": {
+    "body": "testDone(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: testDone",
+    "prefix": "testDone"
+  },
+  "QUnit: testStart": {
+    "body": "testStart(function(${1}) {\n  ${2}\n});",
+    "description": "QUnit: testStart",
+    "prefix": "testStart"
   }
 }
